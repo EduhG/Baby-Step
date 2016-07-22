@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html,
+body {
+    background: #bbbfc2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#container > .row {
+    background: #ffe;
+}
+
+#header {
+    position: relative;
+}
+
+#header > .bg-image {
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+#header .bg-text {
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    height: 100%;
+    text-align: right;
+    color: #fff;
+}
+
+.bg-text h4 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: lighter !important;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.bg-text h3 {
+    color: #fff;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    line-height: 48px;
+}
+
+#content {
+    margin-top: 60px;
+}
+
+.navigation {
+    background: #ebeced;
+    background: -webkit-linear-gradient(left, #ebeced, #d1d5d6);
+    background: -o-linear-gradient(right, #ebeced, #d1d5d6);
+    background: -moz-linear-gradient(right, #ebeced, #d1d5d6);
+    background: linear-gradient(to right, #ebeced, #d1d5d6);
+    padding: 0;
+}
+
+.baby-nav li {
+    padding: 0px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #9ba0a4;
+    text-align: right;
+    padding-right: 24px;
+    border-bottom: 1px solid #ffe;
+}
+
+.baby-nav li a {
+    padding: 0px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #9ba0a4;
+    text-align: right;
+}
