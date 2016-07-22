@@ -75,6 +75,7 @@ img {
     background: -moz-linear-gradient(right, #ebeced, #d1d5d6);
     background: linear-gradient(to right, #ebeced, #d1d5d6);
     padding: 0;
+    padding-bottom: 200px;
 }
 
 i img {
@@ -110,6 +111,7 @@ i img {
     font-weight: 600;
 }
 
+
 .active {
     font-family: 'Source Sans Pro', sans-serif;
     color: #36abe1;
@@ -119,7 +121,7 @@ i img {
 
 .active > a {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #36abe1;
+    color: #36abe1 !important;
     font-weight: bold;
 }
 
@@ -142,6 +144,23 @@ i img {
     font-size: 30px;
     color: #36abe1;
     line-height: 20px;
+}
+
+.step-footer {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.step-footer p {
+    color: #65686f;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.step-footer a {
+    text-decoration: none;
+    color: #6fbee7
 }
 
 .pg-content h4 {
