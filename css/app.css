@@ -125,4 +125,37 @@ i img {
 
 .pg-content {
     padding-left: 70px;
+    padding-right: 70px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #65686f;
+}
+
+.pg-content img {
+    width: 100%;
+}
+
+.pg-content h3 {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    font-size: 30px;
+    color: #36abe1;
+    line-height: 20px;
+}
+
+.pg-content h4 {
+    padding: 5px 0;
+    padding-bottom: 24px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #5c6366;
+}
+
+.pg-content p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #65686f;
+    padding: 10px 0px;
 }
