@@ -122,3 +122,7 @@ i img {
     color: #36abe1;
     font-weight: bold;
 }
+
+.pg-content {
+    padding-left: 70px;
+}
